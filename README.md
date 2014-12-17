@@ -35,7 +35,7 @@ The name of the proxy.
 
 ### Usage examples
 
-In the following example, the running `select-proxy:fwk-2.2.0` would add the respective proxy config from the json file to the proxy configuration under `connect.proxy`. Instead, running `select-proxy:fwk-2.1.8` would take the proxy config from the json file and apply this as the sole proxy to `connect.proxy`.
+In the following example, the running `select-proxy:fwk-2.2.0` would add the respective proxy config from the json file to the proxy configuration under `connect.proxies`. Instead, running `select-proxy:fwk-2.1.8` would take the proxy config from the json file and apply this as the sole proxy to `connect.proxies`.
 
 Gruntfile.js:
 ```js
