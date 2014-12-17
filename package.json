@@ -1,0 +1,26 @@
+{
+  "name": "grunt-connect-proxy-select",
+  "version": "0.1.0",
+  "description": "Select a proxy from a list of proxies and apply it to the grunt-connect-proxy plugin.",
+  "main": "tasks/select-proxy.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mlenkeit/grunt-connect-proxy-select.git"
+  },
+  "keywords": [
+    "grunt",
+    "server",
+    "connect",
+    "proxy",
+    "named_proxy"
+  ],
+  "author": {
+    "name": "Maximilian Lenkeit",
+    "email": "maximilian.lenkeit@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlenkeit/grunt-connect-proxy-select/issues"
+  },
+  "homepage": "https://github.com/mlenkeit/grunt-connect-proxy-select"
+}
