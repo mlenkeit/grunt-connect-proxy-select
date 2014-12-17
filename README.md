@@ -22,13 +22,13 @@ _Run this task with the `grunt select-proxy` command._
 
 ### Options
 
-#### appendProxy
+#### append
 Type: `Boolean`
 Default: `true`
 
 True to append the named proxy to `connect.proxies`, false to clear `connect.proxies` first.
 
-#### proxyName
+#### proxy
 Type: `String`
 
 The name of the proxy.
@@ -41,18 +41,18 @@ Gruntfile.js:
 ```js
 'select-proxy': {
   options: {
-    appendProxy: true
+    append: true
   },
   'fwk-2.2.0': {
 	src: 'named-proxies.json',
-	proxyName: '2.2.0-online'
+	proxy: '2.2.0-online'
   },
   'fwk-2.1.8': {
     options: {
-	  appendProxy: false
+	  append: false
 	},
 	src: 'named-proxies.json',
-	proxyName: '2.1.8-internal-backup'
+	proxy: '2.1.8-internal-backup'
   }
 }
 ```

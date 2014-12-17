@@ -13,11 +13,11 @@ module.exports = function (grunt) {
 	grunt.registerMultiTask('select-proxy', 'Select a proxy from a list of proxies.', function (_proxyName) {
 		// Options
 		var options = this.options({
-				appendProxy : true,
-				proxyName :_proxyName
+				append : true,
+				name :_proxyName
 			}),
-			appendProxy = options.appendProxy,
-			proxyName = options.proxyName;
+			appendProxy = options.append,
+			proxyName = options.proxy;
 
 		if (!proxyName) {
 			grunt.log.error('Proxy name missing for proxy selection');
