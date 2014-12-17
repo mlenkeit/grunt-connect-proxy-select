@@ -55,6 +55,6 @@ module.exports = function (grunt) {
 		configuredProxies.push(namedProxies[proxyName]);
 		grunt.config.set("connect.proxies", configuredProxies);
 		grunt.verbose.writeln('Active proxy configuration:');
-		grunt.verbose.writeln(configuredProxies)
+		grunt.verbose.writeln(JSON.stringify(configuredProxies));
 	});
 };
