@@ -14,7 +14,7 @@ module.exports = function (grunt) {
 		// Options
 		var options = this.options({
 				append : true,
-				name :_proxyName
+				proxy : _proxyName
 			}),
 			appendProxy = options.append,
 			proxyName = options.proxy;
